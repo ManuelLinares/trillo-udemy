@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "udemy-sass",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    },
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "img/*.*",
+      "use": "@now/static"
+    }
+  ],
+  "public": true,
+  "alias": [
+    "trillo.now.sh"
+  ]
+}
